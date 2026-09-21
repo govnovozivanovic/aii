@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "layers": [
+    {
+      "name": "backend",
+      "target": "COMPUTE",
+      "directory": ".",
+      "entrypoint": "server.js",
+      "runtime": "nodejs",
+      "routes": [
+        {
+          "pattern": ".*",
+          "priority": 0
+        }
+      ]
+    }
+  ]
+}
