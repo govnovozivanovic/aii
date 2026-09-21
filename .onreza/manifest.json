@@ -5,8 +5,7 @@
       "name": "backend",
       "target": "COMPUTE",
       "directory": ".",
-      "entrypoint": "server.js",
-      "runtime": "nodejs",
+      "entry": "server.js",
       "routes": [
         {
           "pattern": ".*",
