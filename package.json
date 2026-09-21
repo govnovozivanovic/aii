@@ -1,0 +1,12 @@
+{
+  "name": "danik-assistant-proxy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "echo \"No build needed\"",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
